@@ -1,0 +1,1 @@
+# My exercises for [Full Stack Open React Native Course](https://fullstackopen.com/en/part10)
