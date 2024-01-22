@@ -13,13 +13,13 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     paddingRight: 10,
     columnGap: 10
-  },
-  // ...
+  }
 });
 
 const AppBar = () => {
   return <View style={styles.container}>
-    <AppBarTab label="Repositories" />
+    <AppBarTab label="Repositories" route="/" />
+    <AppBarTab label="Sign In" route="/signin" />
   </View>;
 };
 
