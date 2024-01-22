@@ -3,7 +3,7 @@ import { Link } from "react-router-native";
 
 const AppBarTab = ({ label, route }) => {
     return (
-        <Link to={route}>
+        <Link to={route} style={{padding: 5}}>
             <Text 
                 color="textSecondary" 
                 fontSize="subheading" 
